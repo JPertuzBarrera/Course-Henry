@@ -1,0 +1,77 @@
+.fondo {
+  background-color: rgb(177, 175, 175);
+}
+
+.miTexto {
+  font-size: 1em;
+  color: green;
+  border: 5em;
+}
+
+.name {
+  font-size: 2em;
+}
+
+.encabezado {
+  font-size: 4em;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: center;  
+  margin-top: 5px;
+}
+
+.title{
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.cards {
+  border: 2px solid black;
+  width: fit-content;
+  padding: 0px 1em 0px 1em;
+  border-radius: 8%;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.cards:hover {
+  background-color: rgb(221, 41, 41);
+}
+
+#titulos {
+  width: 60vw;
+  margin: auto;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cards-container {
+  background-color: rgb(150, 107, 199);
+  width: 85vw;
+  margin: auto;
+  margin-top: 1.5em;
+  border: 2px solid rgb(114, 51, 51);
+  border-radius: 2%;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 20px;
+}
+
+img {
+  width: 18em;
+  height: 18em;
+  padding: 1em;
+  }
+
